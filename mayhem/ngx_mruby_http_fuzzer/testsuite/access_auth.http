@@ -1,0 +1,3 @@
+GET /access HTTP/1.0
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+

@@ -1,0 +1,5 @@
+GET /headers?name=X-New&value=1&del=Accept&out=Server HTTP/1.1
+Host: fuzz.example
+Accept: */*
+X-A: b
+

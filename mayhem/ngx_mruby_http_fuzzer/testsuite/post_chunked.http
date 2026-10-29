@@ -1,0 +1,8 @@
+POST /post HTTP/1.1
+Host: fuzz.example
+Transfer-Encoding: chunked
+
+5
+k=v&x
+0
+

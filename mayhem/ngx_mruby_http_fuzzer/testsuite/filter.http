@@ -1,0 +1,3 @@
+GET /filter?del=Content-Type&q=1 HTTP/1.1
+Host: fuzz.example
+

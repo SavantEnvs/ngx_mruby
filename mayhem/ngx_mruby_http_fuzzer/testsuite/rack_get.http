@@ -1,0 +1,5 @@
+GET /rack HTTP/1.1
+Host: fuzz.example
+Cookie: a=b
+X-Status: 404
+

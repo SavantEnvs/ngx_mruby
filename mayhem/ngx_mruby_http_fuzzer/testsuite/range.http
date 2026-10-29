@@ -1,0 +1,5 @@
+GET / HTTP/1.1
+Host: fuzz.example
+Range: bytes=0-10
+If-Modified-Since: Sat, 01 Jan 2000 00:00:00 GMT
+

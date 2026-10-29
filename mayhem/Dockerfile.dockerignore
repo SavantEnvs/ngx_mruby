@@ -1,0 +1,5 @@
+# Build output only; everything else (source, deps, tests, docs, .git) stays in the image.
+/mruby/build
+/build
+/mayhem/obj
+/ctrf-report.json

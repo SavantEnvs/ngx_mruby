@@ -1,0 +1,4 @@
+GET /vars?name=request_uri&value=abc HTTP/1.1
+Host: fuzz.example
+User-Agent: fuzz
+

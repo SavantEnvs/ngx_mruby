@@ -1,0 +1,6 @@
+POST /rack/path?x=1 HTTP/1.1
+Host: fuzz.example
+X-Status: 201
+Content-Length: 4
+
+body
