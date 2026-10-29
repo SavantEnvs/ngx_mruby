@@ -1,0 +1,10 @@
+project: savantenvs/ngx_mruby
+target: mruby_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/mruby_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/mruby_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mruby/oss-fuzz/config/mruby.dict
+    timeout: 5

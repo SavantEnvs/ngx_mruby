@@ -1,0 +1,14 @@
+# Prune the build context (the image COPYs it into /mayhem). .git is deliberately kept: the image
+# must carry the full history. Patterns are root-anchored; mruby/lib/mruby/build/*.rb is source.
+/mruby/build
+/mayhem/obj
+/ctrf-report.json
+/docs
+/example
+/test
+/dependence
+/misc
+/docker
+/.github
+/.vscode
+/*.md
